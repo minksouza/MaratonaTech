@@ -1,0 +1,411 @@
+@font-face {
+    font-family: PoppinsM;
+    src: url(../IMG/midias/fonts/poppins/Poppins-Medium.ttf)
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url(../IMG/midias/fonts/poppins/Poppins-Bold.ttf)
+}
+
+@font-face {
+    font-family: PoppinsL;
+    src: url(../IMG/midias/fonts/poppins/Poppins-Light.ttf)
+}
+
+/*#FED049; #fff; #422311; #1F110B;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: fixed;
+    width: 1500px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 0;
+    backdrop-filter: blur(5px);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.text_header:hover {
+    color: #FED049;
+}
+
+li {
+    list-style-type: none;
+    font-family: PoppinsM;
+}
+
+.content {
+    width: 100%;
+    height: 667px;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+}
+
+.wrapper {
+    position: absolute;
+    z-index: 0;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.sobre_abb {
+    width: 100%;
+    height: 600px;
+    background-color: #422311;
+    position: absolute;
+    top: 667px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+}
+
+.sobre_titulo {
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.sobre_titulo h2 {
+    font-family: PoppinsB;
+    font-size: 50px;
+    color: white;
+}
+
+.sobre_img {
+    margin-right: 20px;
+}
+
+#sobreimgg {
+    border-radius: 20px;
+    width: 750px;
+    height: 510px;
+}
+
+.galeria {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txt_galeria {
+    color: white;
+    font-family: PoppinsB;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.galeria_total {
+    width: 100%;
+    height: 995px;
+    background-color: #1F110B;
+    position: absolute;
+    top: 1267px;
+    z-index: -1;
+}
+
+.galeria2 {
+    top: 2300px;
+    background-color: white;
+}
+
+.galeria2 .card {
+    width: 480px;
+    height: 610px;
+
+}
+
+.galeria2 .galeria_all {
+    background-color: white;
+}
+
+.galeria2 .bloco1 {
+    margin-top: 30px;
+}
+
+
+.galeria2 .txt_galeria {
+    text-align: center;
+    justify-content: center;
+    color: #1F110B;
+    margin-top: 20px;
+}
+
+.galeria_all {
+    background-color: #1F110B;
+    width: 100%;
+    height: 100%;
+}
+
+.bloco1,
+.bloco2 {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bloco2 {
+    margin-top: 10px;
+}
+
+.card {
+    width: 480px;
+    height: 450px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.inp_ctt{
+    background-color: white;
+}
+
+.form_all{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp22{
+    margin-top: 20px;
+    padding-bottom: 150px;
+}
+
+.btndiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+#btn{
+    font-family: PoppinsM;
+    border-radius: 0px 10px 0px 10px;
+    border: none;
+    width: 120px;
+    color: white;
+    background-color: #422311;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.inputs2{
+    margin-top: 30px;
+    gap: 20px;
+    width: 80%;
+    display: flex;
+    margin-left: 30px;
+}
+
+.blocoinp2{
+   
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.blocoinp2 input{
+    width: 395px;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    display: block;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.contato #sobreimgg{
+    border-radius: 0;
+}
+
+
+
+form{
+    align-items: center;
+    justify-content:center;
+    width: 500px;
+    height: 500px;
+    z-index: 0;
+    margin-left: 20px
+}
+
+.contato #sobreimgg{
+    margin-top: 20px;
+}
+
+.contato {
+    height: 700px; 
+    width: 100%;
+    background-color: #1F110B ;
+    position: absolute;
+    top: 3700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+}
+
+#txt2 {
+    margin-top: 30px;
+}
+
+footer{
+    height: 100px; 
+    width: 100%;
+    background-color: #422311 ;
+    position: absolute;
+    top: 4350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+}
+
+.contatott{
+    margin-left: 20px;
+}
+
+h3 {
+    color: #FED049;
+    font-family: PoppinsL;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-family: PoppinsL;
+    color: white;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1 {
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #343F4F;
+    border-left: 20px solid #FED049;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+h1 {
+    color: white;
+    font-family: PoppinsB;
+    font-size: 80px;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+input {
+    display: none;
+}
+
+.bar {
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.6s;
+}
+
+.bar:hover {
+    background-color: #FED049;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked~.s1 {
+    margin-left: 0;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -40%;
+}
